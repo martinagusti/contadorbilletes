@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Billetes Br</title>
+    <link rel="stylesheet" href="estilos.css?v1.0">
+   <script src="contadorbilletes.js"></script>
+</head>
+
+<h2>Contador de Billetes</h2>
+<LABEl class="total">TOTAL</LABEl>
+<LABEl class="total" id="total"></LABEl><br>
+
+<BUtton class="boton" onclick="calcular()">CALCULAR</BUtton>
+<BUtton class="boton" onclick="limpiar()">LIMPIAR</BUtton><br><br>
+<body background="fondo.jpg">
+
+   <div class="container">
+      <img class="billete" src="1000.jpg" alt="" >
+    <input onclick="limpiarTotal()" type="number" id="mil" class="input" placeholder="Billetes de 1000"><br>
+
+   </div><br>
+
+   <div class="container">
+      <img class="billete" src="500.jpg" alt="">
+      <input onclick="limpiarTotal()" type="number" id="quinientos" class="input" placeholder="Billetes de 500"><br>
+
+   </div><br>
+
+   <div class="container">
+      <img class="billete" src="200.jpg" alt="">
+      <input onclick="limpiarTotal()" type="number" id="doscientos" class="input" placeholder="Billetes de 200"><br>
+   </div><br>
+   <div class="container">
+      <img class="billete" src="100-2.jpg" alt="">
+      <input onclick="limpiarTotal()" type="number" id="cien" class="input" placeholder="Billetes de 100"><br>
+   </div><br>
+   <div class="container">
+      <img class="billete" src="50.PNG" alt="">
+      <input onclick="limpiarTotal()" type="number" id="cincuenta" class="input" placeholder="Billetes de 50"><br>
+   </div><br>
+   <div class="container">
+
+      <img class="billete" src="20-2.jpg" alt="">
+      <input onclick="limpiarTotal()" type="number" id="veinte" class="input" placeholder="Billetes de 20"><br>
+   </div><br>
+   <div class="container">
+      <img class="billete" src="10-2.jpg" alt="">
+      <input onclick="limpiarTotal()" type="number" id="diez" class="input" placeholder="Billetes de 10"><br>
+
+   </div><br>
+
+   <audio src="homero.mp3"></audio>
+   
+   
+</body>
+</html>
