@@ -1,4 +1,6 @@
 
+let lblTotal = document.getElementById("lblTotal")
+
 function calcular(){
 
     let mil = document.getElementById("mil").value
@@ -11,7 +13,7 @@ function calcular(){
 
     let calculo = (mil*1000) + (quinientos * 500) + (doscientos * 200) + (cien * 100) + (cincuenta * 50) + (veinte * 20) + (diez * 10)
 
-console.log(calculo)
+
 document.getElementById("total").innerHTML = calculo
 }
 
@@ -25,12 +27,11 @@ function limpiar(){
     document.getElementById("diez").value=""
 
     document.getElementById("total").innerHTML = 0
-    sound.play();
+    
 }
 
 function limpiarTotal(){
     document.getElementById("total").innerHTML = ""
 }
 
-var sound = new Audio();
-sound.src = "homero.mp3";
+

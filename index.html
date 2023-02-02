@@ -9,50 +9,64 @@
    <script src="contadorbilletes.js"></script>
 </head>
 
-<h2>Contador de Billetes</h2>
-<LABEl class="total">TOTAL</LABEl>
-<LABEl class="total" id="total"></LABEl><br>
-
-<BUtton class="boton" onclick="calcular()">CALCULAR</BUtton>
-<BUtton class="boton" onclick="limpiar()">LIMPIAR</BUtton><br><br>
+      
 <body background="fondo.jpg">
 
-   <div class="container">
-      <img class="billete" src="1000.jpg" alt="" >
-    <input onclick="limpiarTotal()" type="number" id="mil" class="input" placeholder="Billetes de 1000"><br>
+   <header>
+      <h2>Contador de Billetes</h2>
+      <div class="div_lbl">
+         <LABEl class="total" id="lblTotal">TOTAL</LABEl>
+         <LABEl class="total" id="total"></LABEl>
+      </div>
+      
+   
+      <div class="div_btn">
+         <BUtton class="boton" onclick="calcular()">CALCULAR</BUtton>
+         <BUtton class="boton" onclick="limpiar()">LIMPIAR</BUtton>
+      </div>
+      
+   
+   </header>
 
-   </div><br>
+   <div class="div_container">
+      <div class="container">
+         <img class="billete" src="1000.jpg" alt="" >
+       <input onclick="limpiarTotal()" type="number" id="mil" class="input" placeholder="Billetes de 1000">
+   
+      </div>
+   
+      <div class="container">
+         <img class="billete" src="500.jpg" alt="">
+         <input onclick="limpiarTotal()" type="number" id="quinientos" class="input" placeholder="Billetes de 500">
+   
+      </div>
+   
+      <div class="container">
+         <img class="billete" src="200.jpg" alt="">
+         <input onclick="limpiarTotal()" type="number" id="doscientos" class="input" placeholder="Billetes de 200">
+      </div>
+      <div class="container">
+         <img class="billete" src="100-2.jpg" alt="">
+         <input onclick="limpiarTotal()" type="number" id="cien" class="input" placeholder="Billetes de 100">
+      </div>
+      <div class="container">
+         <img class="billete" src="50.PNG" alt="">
+         <input onclick="limpiarTotal()" type="number" id="cincuenta" class="input" placeholder="Billetes de 50">
+      </div>
+      <div class="container">
+   
+         <img class="billete" src="20-2.jpg" alt="">
+         <input onclick="limpiarTotal()" type="number" id="veinte" class="input" placeholder="Billetes de 20">
+      </div>
+      <div class="container">
+         <img class="billete" src="10-2.jpg" alt="">
+         <input onclick="limpiarTotal()" type="number" id="diez" class="input" placeholder="Billetes de 10">
+   
+      </div>
 
-   <div class="container">
-      <img class="billete" src="500.jpg" alt="">
-      <input onclick="limpiarTotal()" type="number" id="quinientos" class="input" placeholder="Billetes de 500"><br>
+   </div>
 
-   </div><br>
 
-   <div class="container">
-      <img class="billete" src="200.jpg" alt="">
-      <input onclick="limpiarTotal()" type="number" id="doscientos" class="input" placeholder="Billetes de 200"><br>
-   </div><br>
-   <div class="container">
-      <img class="billete" src="100-2.jpg" alt="">
-      <input onclick="limpiarTotal()" type="number" id="cien" class="input" placeholder="Billetes de 100"><br>
-   </div><br>
-   <div class="container">
-      <img class="billete" src="50.PNG" alt="">
-      <input onclick="limpiarTotal()" type="number" id="cincuenta" class="input" placeholder="Billetes de 50"><br>
-   </div><br>
-   <div class="container">
-
-      <img class="billete" src="20-2.jpg" alt="">
-      <input onclick="limpiarTotal()" type="number" id="veinte" class="input" placeholder="Billetes de 20"><br>
-   </div><br>
-   <div class="container">
-      <img class="billete" src="10-2.jpg" alt="">
-      <input onclick="limpiarTotal()" type="number" id="diez" class="input" placeholder="Billetes de 10"><br>
-
-   </div><br>
-
-   <audio src="homero.mp3"></audio>
    
    
 </body>

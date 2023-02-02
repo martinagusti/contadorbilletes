@@ -2,6 +2,8 @@ body{
     
     color: rgb(201, 5, 152);
     margin: 0;
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -11,16 +13,24 @@ h2{
     text-align: center;
     margin: 10px;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
     
 
 .input{
+  width: 50vw;
   height: 40px;
-  width: 50vw; 
-  color: blue;
-  font-size: 1rem;
+  color: rgb(99, 99, 235);
+  font-size: 1.2rem;
   border-color: rgb(247, 42, 185);
   border-radius: 10px;
   margin-left: 10px;
+  
   
   
   
@@ -41,7 +51,7 @@ h2{
 }
 
 .total{
-   font-size: 200%;
+   font-size: 30px;
    color: rgb(250, 250, 250);
    margin-left: 10px;
    
@@ -50,18 +60,42 @@ h2{
 
 
 .billete{
-    width: 80px;
+    width: 100px;
     height: 40px;
     margin-left: 10px;
+    border-radius: 3px;
     
    
 }
 
 .container{
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
+    margin: 3px;
 
+}
+
+.container img{
+    margin-top: 3px;
+
+}
+
+.div_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.div_lbl{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
 }
 
 
